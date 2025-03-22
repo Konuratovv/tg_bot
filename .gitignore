@@ -1,0 +1,29 @@
+# Общие исключения
+*.log
+*.out
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+instance/
+db.sqlite3
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Git
+.git/
